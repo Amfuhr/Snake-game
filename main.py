@@ -5,17 +5,17 @@ from tkinter import *
 import random
 
 #box size, game speed, and color schemes
-#variables for the game settings
+#classes for the game settings
 GAME_WIDTH = 700
 GAME_HEIGHT = 700
 SPEED = 400
 #Snake and food size
 SPACE_SIZE = 50
 BODY_PARTS = 3
-
+#class for snake and food
 #RGB for the color of the backgrund, snake, and food
-SNAKE_COLOR = "#00FF00"
-FOOD_COLOR = "#FF0000"
+SNAKE_COLOR = "white"
+FOOD_COLOR = "blue"
 BACKGROUND_COLOR = "#000000"
 
 
